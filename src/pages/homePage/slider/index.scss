@@ -1,0 +1,72 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  padding: 20rem 0;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  flex-direction: column;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slide-1 {
+  background-image: url("https://preview.colorlib.com/theme/bizpro/images/home/slide-1.jpg");
+}
+
+.slide-2 {
+  background-image: url("https://preview.colorlib.com/theme/bizpro/video/drinkwinecover.jpg");
+}
+
+.slide-3 {
+  background-image: url("https://preview.colorlib.com/theme/bizpro/images/home/slide-2.jpg");
+}
+.slide-h1 {
+  font-size: 48px;
+  color: white;
+  font-weight: 700;
+}
+
+.slide-h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  padding-top: 18px;
+}
+
+.slide-btn {
+  border: 1px solid #d73e4d;
+  font-size: 14px;
+  padding: 16px 16px;
+  background-color: #00000000;
+  margin-top: 20px;
+  color: white;
+  transition: all 1s;
+  cursor: pointer;
+  &:hover {
+    background-color: #d73e4d;
+  }
+}

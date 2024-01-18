@@ -1,0 +1,45 @@
+#ourabout {
+  padding: 95px 0px;
+  .container {
+    .ourabout {
+      .ourabout-h1 {
+        font-size: 36px;
+        color: #292929;
+        font-weight: 700;
+        margin: auto;
+      }
+
+      .ourabout-p {
+        font-size: 16px;
+        line-height: 25px;
+        color: #6f6f6f;
+      }
+      .cards {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 140px;
+        gap: 10px;
+        .card {
+          margin: auto;
+          border: 1px solid rgba(0, 0, 0, 0.8);
+          border-radius: 10px;
+          background-color: rgba(0, 0, 0, 0.3);
+          text-align: start;
+          padding: 10px;
+          .card-body {
+            width: 350px;
+            height: 150px;
+          }
+        }
+      }
+
+      hr {
+        background-color: #d73e4d;
+        border: none;
+        width: 25px;
+        height: 4px;
+        margin: 30px auto;
+      }
+    }
+  }
+}
